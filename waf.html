@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                violetdark: '#2a2636',
+                violetlighter: '#5C5470',
+                violetmid: '#3c374a',
+                violetlight: '#f3dbc3',
+              }
+            }
+          }
+        }
+    </script>
+    <title>WAF Block</title>
+</head>
+<body>
+    <div class="bg-violetdark h-screen flex items-center justify-center" data-v0-t="card">
+        <div class="p-12 font-mono rounded overflow-hidden shadow-lg bg-violetmid">
+            <h2 class="text-violetlight text-2xl">Web Application Firewall</h2>
+            <p class="text-violetlight text-xl">You've been blocked.</p>
+            <p class="text-violetlight">Try again later!</p>
+            <p class="text-violetlighter cursor-pointer" onclick="openLink()">generated with v0.dev :D</p>
+        </div>
+    </div>
+
+    <script>
+        function openLink() {
+            window.open("https://v0.dev");
+        }
+    </script>
+</body>
+</html>
