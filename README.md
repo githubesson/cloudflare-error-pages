@@ -8,7 +8,7 @@
 - Upload the html files to some sort of static storage (eg. aws s3, or cloudflare r2 which i personally use - make sure to enable some sort of public access in the settings of the bucket).
 - Go to the 'Custom Pages' section in the Cloudflare panel of the website you're looking to apply these templates to.
 - Grab the PUBLIC links to the html templates.
-- Apply the each template to their category.
+- Apply each template to the correct category.
 - DONE!
 
 
